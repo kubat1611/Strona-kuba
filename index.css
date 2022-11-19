@@ -1,0 +1,84 @@
+body{
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+img{
+   width: 50px;
+   height: 50px; 
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90 px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0%;
+}
+.logo{
+    font-family: 'JetBrains Mono', monospace;
+    margin-right: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+}
+.socials{
+    background-color: white;
+}
+
+.main {
+    height: 100%;
+    background-image: url('https://media.discordapp.net/attachments/1014941631801208925/1042740195046477834/makesweet-zs3k3y.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+    padding: 0%;
+}
+.main > img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.tekst{
+   
+    color: black;
+}
+
+.Tytul{
+    font-family: 'JetBrains Mono', monospace;
+    margin-right: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.Tekst{
+    background-color:  rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-color: black;
+    border-radius: 30px;
+     width: 40%;
+    height: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.opis{
+      font-family: 'Inter', sans-serif;
+      color: white;
+      font-size: large;
+      font-weight: bolder;
+      padding: 20px;
+}
